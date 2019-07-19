@@ -1,0 +1,82 @@
+course details
+explanation abt MSE, MH, ED
+ground truth of video
+flow of work done
+images of slides, 
+topic/subtopic identification approach(region wise)
+mismatch topic subtopic slide
+result and analysis(No of topic vs detected slides)
+threshold vs detected slides
+
+Future work
+DNN
+consistent format
+fixed threshold
+
+references
+talkminer
+ICS Video Player( http://icsvideos.cs.uh.edu/publications.php )
+Tele-task(journal of 2014)
+
+slide1 00:00
+slide2 00:01
+slide3 00:08
+slide4 01:25
+slide5 01:51
+slide6 02:54
+slide7 03:51
+slide8 04:11
+slide9 04:13
+slide10 04:57
+slide11 05:19
+slide12 05:27
+slide13 06:21
+slide14 06:23
+slide15 07:11
+slide16 07:38
+slide17 07:43 non-slide
+slide18 08:49
+slide19 08:50
+slide20 08:53
+slide21 09:02
+slide22 09:24
+slide23 09:56
+slide24 10:02
+slide25 10:56
+slide26 11:42
+slide27 11:47
+slide28 13:56
+slide29 14:11
+
+
+country domain
+Distribution of Name Space
+Hierarchy of Name Server
+Zones and Domains
+What is a Zone
+The Concept
+Zone Transfer
+DNS in the Internet(Topic)
+DNS in the Internet(Subtopic)
+Generic Domain
+Country Domain
+Inverse Domain
+Name Resolution(Topic)
+Name Resolution Process
+Name Resolution Process(contd..)
+Name Resolution Process
+Name Resolution Process(contd..)
+...Name Resolution Process(contd..)....
+window..Name Resolution Process(contd..)...
+terminal..Name Resolution Process(contd..)..
+...Name Resolution Process(contd..)...
+Name Resolution Process(contd..)
+Hierarchy of Name Servers
+Recursive Resolution
+Iterative Name Resolution
+Iterative Resolution
+DNS Full Resolver
+Domain Name stub resolver
+DNS Messages
+DNS Resource Records(RR)
+DNS Resource Records(RR) Image

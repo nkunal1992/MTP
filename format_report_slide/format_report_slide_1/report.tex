@@ -1,0 +1,120 @@
+\documentclass[times, 11pt, a4paper]{article}
+\usepackage{tikz}
+\usepackage{caption} 
+\captionsetup[table]{skip=10pt}
+\usepackage{needspace} 
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage[para]{threeparttable}
+\usepackage{epsfig}
+\usepackage{epstopdf}
+\usepackage{tipa}
+\usepackage{amssymb,amsmath,bm}
+\usepackage{mdwmath}
+\usepackage{mdwtab}
+\usepackage{url}
+\usepackage{float}
+%\usepackage{llncsdoc}
+\usepackage[top=1.5in, bottom=1.5in, left=1.2in,right=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usetikzlibrary{shapes,arrows}
+\setcounter{secnumdepth}{3}
+\setlist{nolistsep}
+\linespread{1.25}
+\textheight 8.8in
+\textwidth 6.2in
+
+\def\vec#1{\ensuremath{\bm{{#1}}}}
+\def\mat#1{\vec{#1}}
+
+
+\sloppy % better line breaks
+%\ninept
+\begin{document}
+%\begin{frontmatter}
+\input{title.tex}
+\thispagestyle{empty}
+\newpage
+\thispagestyle{empty}
+%\addcontentsline{toc}{section}{References}
+\tableofcontents
+\newpage
+\setcounter{page}{1}
+
+\tikzstyle{block} = [draw, fill=blue!20, rectangle, 
+    minimum height=3em, text width=5em, text centered, rounded corners]
+\tikzstyle{sum} = [draw, fill=blue!20, circle, node distance=1cm]
+	\tikzstyle{pinstyle} = [pin edge={to-,thin,black}]
+\tikzstyle{block1} = [draw, fill=blue!20, rectangle, 
+    minimum height=3em, text width=7em, text centered, rounded corners]
+\tikzstyle{decision} = [draw, fill=blue!20, diamond, 
+    minimum width=3cm, minimum height=1cm, text centered, aspect=1.5]
+\tikzstyle{arrow} = [thick,->,>=stealth]    
+
+\Needspace{5\baselineskip}
+
+\section{Introduction} \label{Introduction}
+This is introduction section
+
+\Needspace{5\baselineskip}
+\section{Literature Review}
+Literature survey
+
+
+\Needspace{5\baselineskip}
+
+\section{Motivation}
+Motivation
+
+\Needspace{5\baselineskip}
+
+\section{Work Done}
+ggg 
+\subsection{Robust GCI detection for Human voice}
+gdgd
+
+\subsubsection{Pre-processing}
+\Needspace{5\baselineskip}
+
+\section{Summary and Conclusion}
+
+tessr
+
+\Needspace{5\baselineskip}
+\section{Future Work}
+\begin{enumerate}
+\item Exploring suitable signal processing methods to extract accurate melody from singing voice.
+\item Exploring appropriate source separation methods to extract the vocal signals.
+\item Applications
+\begin{itemize}
+	\item \textbf{Sargam learning tool for Indian classical music:} Sargam in Indian Music refers to singing of notes. While learning Indian music, this tool will help in providing suggestions on the note rendered by a trainee.
+	\item \textbf{Automatic tanpura tuner:} In a rendition, tanpura is tuned to the base frequency of the singer manually. Instead an automatic tuner system is developed which plays tanpura based on the base frequency of the singer.
+	\item \textbf{Tonic independent melody comparison:} Tonic refers to the base pitch chosen by the singer to explore the full pitch range comfortably. 			When the same melody is sung in different voices, there is a large difference in pitch contour between both the melodies. Tonic normalizes the two 					melodies 	to cents scale for comparison. We attempt the remove the need of tonic in melody comparison.
+
+\end{itemize}
+
+\end{enumerate}
+
+\Needspace{5\baselineskip}
+
+\section*{Publications} 
+\begin{itemize}
+\item \textbf{Conference}
+	\begin{itemize}
+	 	\item[--]  Pradeep Rengaswamy, Gurunath Reddy M,  K. Sreenivasa Rao,  and Pallab Dasgupta``\textit{A Robust Non-Parametric and Filtering Based Approach for Glottal Closure Instant Detection,"} in \textit{INTERSPEECH 2016}. (Accepted).
+	 	\end{itemize}
+\end{itemize}
+	 
+
+\Needspace{5\baselineskip}
+
+\section*{Acknowledgements}
+The present work is carried out under the project entitled "\textit{Scientific Approach to Networking and Designing of Heritage Interfaces} (\textbf{SANDHI})" sponsored by Ministry of Human Resource Development (MHRD), Govt. of India.
+
+\newpage
+\bibliographystyle{plain}
+\bibliography{Ref}
+\end{document}	

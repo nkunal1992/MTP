@@ -1,0 +1,11 @@
+Task to Complete
+=================
+
+face recognition on content part
+binary thresholding then MSE
+automatic adaptive threshold
+downgrade video resolution and then run on full video to calculate threshold
+prepare table of threshold vs no of topic/subtopic/slide
+manually prepare ground truth and choose different threshold and compare with ground truth for lecture_6
+
+prepare report in LaTex
